@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    title: `code drip ☕`,
+    author: `Aaron Jack`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `aaron_jack_`,
     },
   },
   plugins: [
@@ -27,6 +27,19 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: "gatsby-remark-embed-gist",
+            options: {
+              // Optional:
+    
+              // the github handler whose gists are to be accessed
+              username: 'weirdpattern',
+    
+              // a flag indicating whether the github default gist css should be included or not
+              // default: true
+              includeDefaultCss: true
+            }
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
