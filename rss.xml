@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[code drip ☕]]></title><description><![CDATA[javascript, react, and more]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 01 Jul 2019 04:06:32 GMT</lastBuildDate><item><title><![CDATA[The easy way to use Typescript with React]]></title><description><![CDATA[Typescript has been one of the most loved languages on stack overflow for several years running.I didn’t really understand the value of…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//the-easy-way-to-use-typescript-with-react/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//the-easy-way-to-use-typescript-with-react/</guid><pubDate>Sun, 23 Jun 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Typescript has been one of the &lt;a href=&quot;https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted&quot;&gt;most loved languages&lt;/a&gt; on stack overflow for several years running.&lt;/p&gt;
+&lt;p&gt;&lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dfd565cc7a7813db7261f57c2d5b57ae/f4491/loved-languages.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 87.41648106904232%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB30lEQVQ4y6WUbVPTQBSF8///ht/8pI7AjCJliuMoU0RKWvpCpW1imzRIUpLs5mX3Hu82gJXaInVnnrmbm92Tc/fuxCoVIUoJWQmkOfAzLpFminNqMb8VasE8raLJmXkiFfyoxIzxwhJFqUFEsLTWmPlT2OdNuM4IeZYiTRNIkSATVbxHLOUEr8lkRc4kcQwpJSylFG5uQjiOiyAIFslUCN78NOkDvCcVyLIMlrEppYAqC1SDsN0gmGotM73oDlD7eIwoySEKc5b0bETxIKjRmmq8PtfYayvstv6dnaVYv1SLxiwcXgc++h0buhBbla3JsFzyOMKbzw6+jgs0J8A3VzF6I2fMyVhjEOjKwm9BwlWQo96JUW+HOL7KeAPh1NE4dddjRBsseLkqyCX7E/TsE8wDl5/y5/eXHjlsuiVeNiQ3RWO3TXhrVwe9Y6/HNONVU+HL8C8Op/41ut+dra6LLGhVsDf0sHd0hlGQwYuBHxE9yYRxQ0IoVgQ1+jON/S7hoFvgXUvioFei1leo9dZzyO/fdxQuPH13dZYcuqMBmo1PCCZDhL7Dn5P/0xSgMZjjRd3DfqdgZ2C3aiMfupW7o4Hi396jkok0Yr4pfsLNmZuz0ZiYuIFqHcG/JSj9p+AvU/sQFf+IwqYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;&lt;/span&gt;
+    &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Typescript is the number 3 most loved language on stack overflow&quot;
+        title=&quot;&quot;
+        src=&quot;/static/dfd565cc7a7813db7261f57c2d5b57ae/b9e4f/loved-languages.png&quot;
+        srcset=&quot;/static/dfd565cc7a7813db7261f57c2d5b57ae/cf440/loved-languages.png 148w,
+/static/dfd565cc7a7813db7261f57c2d5b57ae/d2d38/loved-languages.png 295w,
+/static/dfd565cc7a7813db7261f57c2d5b57ae/b9e4f/loved-languages.png 590w,
+/static/dfd565cc7a7813db7261f57c2d5b57ae/f9b6a/loved-languages.png 885w,
+/static/dfd565cc7a7813db7261f57c2d5b57ae/2d849/loved-languages.png 1180w,
+/static/dfd565cc7a7813db7261f57c2d5b57ae/f4491/loved-languages.png 1796w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I didn’t really understand the value of types until I worked on a team.&lt;/p&gt;
+&lt;p&gt;When multiple people are contributing to a project TS makes it a lot harder to write javascript bugs, and you can trust functions without reading their definitions.&lt;/p&gt;
+&lt;h3&gt;In this video I show…&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;the way to start a typescript React app in 10 seconds&lt;/li&gt;
+&lt;li&gt;TS + React basics&lt;/li&gt;
+&lt;li&gt;how to set up TS + React + webpack from scratch for a project&lt;/li&gt;
+&lt;li&gt;how to refactor a React app to TS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+          &lt;div
+            class=&quot;gatsby-resp-iframe-wrapper&quot;
+            style=&quot;padding-bottom: 60%; position: relative; height: 0; overflow: hidden;margin-bottom: 1.0725rem&quot;
+          &gt;
+            &lt;div&gt;&lt;iframe src=&quot;https://youtu.be/4ceWffNiOyQ&quot; style=&quot;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          &quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+          &lt;/div&gt;
+          &lt;/p&gt;
+&lt;h3&gt;If you’re starting from scratch, setting up a TS app is as simple as adding a parameter to create-react-app.&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;npx create-react-app my-app --typescript&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;i would recommend starting with &lt;a href=&quot;https://facebook.github.io/create-react-app/docs/adding-typescript&quot;&gt;create-react-app&lt;/a&gt; as a “sandbox” to figure out how things work.&lt;/p&gt;
+&lt;h3&gt;You can start playing around with things like…&lt;/h3&gt;
+&lt;h4&gt;Interfaces for props&lt;/h4&gt;
+&lt;p&gt;These types will be enforced anywhere I use this component, both on compilation and even in your IDE.&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;gist96998982&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-hello-tsx&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-tsx &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;react&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;IProps&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    name&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    showTime&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;boolean&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;const&lt;/span&gt;&lt;/span&gt; Hello&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;React&lt;/span&gt;.&lt;span class=&quot;pl-en&quot;&gt;FC&lt;/span&gt;&amp;lt;&lt;span class=&quot;pl-en&quot;&gt;IProps&lt;/span&gt;&amp;gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; (&lt;span class=&quot;pl-v&quot;&gt;props&lt;/span&gt;) &lt;span class=&quot;pl-k&quot;&gt;=&amp;gt;&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-k&quot;&gt;return&lt;/span&gt; (&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        &amp;lt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;            Hello, &lt;span class=&quot;pl-pse&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;props&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pl-pse&quot;&gt;}&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;            &lt;span class=&quot;pl-pse&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;props&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;showTime&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;Date&lt;/span&gt;()&lt;span class=&quot;pl-pse&quot;&gt;}&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        &amp;lt;/&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L14&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;14&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC14&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    )&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L15&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;15&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC15&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L16&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;16&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC16&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-hello-tsx-L17&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;17&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-hello-tsx-LC17&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;Hello&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/fb470eba79f29b66f7acdd38d3045762/raw/182e18c4f5f24099107cb7ae88e63603e2ed5257/hello.tsx&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/fb470eba79f29b66f7acdd38d3045762#file-hello-tsx&quot;&gt;hello.tsx&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Alternatively, I can set name as an optional field with the question mark&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;interface IProps {
+    name?: string,
+    showTime: boolean
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;Structs&lt;/h4&gt;
+&lt;p&gt;Similar to C or Golang, we can have structured objects.&lt;/p&gt;
+&lt;p&gt;TS enforces rules on objects through an entire data path — you can expect your object to always be a certain shape, regardless of where it is.&lt;/p&gt;
+&lt;p&gt;It’s best practice to put most (non-prop) interfaces in &lt;code class=&quot;language-text&quot;&gt;.d.ts&lt;/code&gt; files, which do not need to be imported&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;gist96998503&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-local-d-ts&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-typescript &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-local-d-ts-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-local-d-ts-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;Person&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-local-d-ts-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-local-d-ts-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  userName&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-local-d-ts-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-local-d-ts-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  firstName&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-local-d-ts-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-local-d-ts-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  age&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;number&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-local-d-ts-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-local-d-ts-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/764604bb562b1c137a0e1721fab182b8/raw/77107b6a60d8c4a68adb554aec80532acba80d71/local.d.ts&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/764604bb562b1c137a0e1721fab182b8#file-local-d-ts&quot;&gt;local.d.ts&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Here we have a person struct with multiple fields.&lt;/p&gt;
+&lt;p&gt;Good-bye “cannot read property x of undefined” errors&lt;/p&gt;
+&lt;h4&gt;Function typing&lt;/h4&gt;
+&lt;p&gt;We make input and return types explicit.&lt;/p&gt;
+&lt;p&gt;It’s useful because you can now “trust” functions to do what they say, without reading definitions.&lt;/p&gt;
+&lt;p&gt;&lt;div id=&quot;gist96998996&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-formatmessage-ts&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-typescript &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-formatmessage-ts-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-formatmessage-ts-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;function&lt;/span&gt; formatMessage(&lt;span class=&quot;pl-v&quot;&gt;person&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;Person&lt;/span&gt;)&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-formatmessage-ts-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-formatmessage-ts-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;`&lt;/span&gt;Welcome, ${&lt;span class=&quot;pl-smi&quot;&gt;person&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;firstName&lt;/span&gt;}... &lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-formatmessage-ts-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-formatmessage-ts-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-s&quot;&gt;        ${&lt;span class=&quot;pl-smi&quot;&gt;person&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;age&lt;/span&gt;}? But you look ${&lt;span class=&quot;pl-smi&quot;&gt;person&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;10&lt;/span&gt;}!&lt;span class=&quot;pl-pds&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-formatmessage-ts-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-formatmessage-ts-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/51baa06a7f2c484bd081ebfcf6500b5e/raw/98d20510ef71366cf4e58f7c01c3c3b21473eb8f/formatMessage.ts&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/51baa06a7f2c484bd081ebfcf6500b5e#file-formatmessage-ts&quot;&gt;formatMessage.ts&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;Here we expect the person interface as input and return a formatted string message.&lt;/p&gt;
+&lt;h2&gt;If you want to set up TS manually…&lt;/h2&gt;
+&lt;p&gt;By using the typescript webpack loader &lt;code class=&quot;language-text&quot;&gt;ts-loader&lt;/code&gt;, our transpiler will handle &lt;code class=&quot;language-text&quot;&gt;.tsx&lt;/code&gt; files and also act as a “compiler” to catch errors.&lt;/p&gt;
+&lt;p&gt;If your IDE is set up right (VS code is out of the box) then you will also see errors there.&lt;/p&gt;
+&lt;p&gt;The end result: we will get the exact same build files with a much improved developer experience.&lt;/p&gt;
+&lt;h3&gt;The main steps you need to follow are:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;install dependencies (that you haven’t already):&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;yarn add react &amp;amp;&amp;amp;
+yarn add typescript ts-loader webpack webpack-cli --dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Add a &lt;code class=&quot;language-text&quot;&gt;webpack.config.js&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;ts-loader&lt;/code&gt;
+&lt;div id=&quot;gist96986519&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-webpack-config-js&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-javascript &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;var&lt;/span&gt; path &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;path&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;);&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c1&quot;&gt;module&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  mode&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;production&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  entry&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;./src/index.tsx&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  output&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    path&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;path&lt;/span&gt;.&lt;span class=&quot;pl-en&quot;&gt;resolve&lt;/span&gt;(&lt;span class=&quot;pl-c1&quot;&gt;__dirname&lt;/span&gt;, &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;build&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;),&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    filename&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;index.js&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    libraryTarget&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;commonjs2&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt; &lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  },&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  module&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    rules&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; [&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        test&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-sr&quot;&gt; &lt;span class=&quot;pl-pds&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;pl-cce&quot;&gt;\.&lt;/span&gt;tsx&lt;span class=&quot;pl-k&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;/&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L14&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;14&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC14&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        use&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;ts-loader&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L15&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;15&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC15&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        exclude&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-sr&quot;&gt; &lt;span class=&quot;pl-pds&quot;&gt;/&lt;/span&gt;node_modules&lt;span class=&quot;pl-pds&quot;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L16&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;16&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC16&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      }&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L17&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;17&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC17&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    ]&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L18&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;18&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC18&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  },&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L19&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;19&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC19&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  externals&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L20&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;20&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC20&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;react&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;commonjs react&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L21&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;21&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC21&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  }&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-webpack-config-js-L22&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;22&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-webpack-config-js-LC22&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;};&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/4e5db5e5af5ef8d278e5a640056efc35/raw/d95a71456d7b645d6fdbd78a452cc6d16e145354/webpack.config.js&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/4e5db5e5af5ef8d278e5a640056efc35#file-webpack-config-js&quot;&gt;webpack.config.js&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;the important parts are setting the entry point as &lt;code class=&quot;language-text&quot;&gt;index.tsx&lt;/code&gt; and the &lt;code class=&quot;language-text&quot;&gt;ts-loader&lt;/code&gt; rule.&lt;/p&gt;
+&lt;p&gt;If you are refactoring to &lt;code class=&quot;language-text&quot;&gt;ts&lt;/code&gt;, simply add to &lt;code class=&quot;language-text&quot;&gt;ts-loader&lt;/code&gt; to the &lt;code class=&quot;language-text&quot;&gt;rules&lt;/code&gt; section.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;...
+rules: [
+      ...
+      {
+        test: /\.tsx?$/,
+        use: &amp;#39;ts-loader&amp;#39;,
+        exclude: /node_modules/
+      }
+    ]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;Next, create a minimal &lt;code class=&quot;language-text&quot;&gt;tsconfig.json&lt;/code&gt; in the project root.
+&lt;div id=&quot;gist96986362&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-tsconfig-json&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-json-with-comments &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;{&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;compilerOptions&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;noImplicitAny&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;true&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;module&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;commonjs&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;target&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;es5&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;jsx&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;react&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    },&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;exclude&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; [&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;node_modules&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    ],&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-tsconfig-json-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-tsconfig-json-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/49dfc0b096bba7100cb768d6302d78cb/raw/aa6db39a70c7a2f11a7c9b803fd9f1d4d36357dc/tsconfig.json&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/49dfc0b096bba7100cb768d6302d78cb#file-tsconfig-json&quot;&gt;tsconfig.json&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;the full set of rules for &lt;code class=&quot;language-text&quot;&gt;tsconfig.json&lt;/code&gt; are &lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/tsconfig-json.html&quot;&gt;here&lt;/a&gt; — vs code also gives you descriptions on mouse-over.&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;
+&lt;p&gt;Now write your &lt;code class=&quot;language-text&quot;&gt;.tsx&lt;/code&gt; files (or change &lt;code class=&quot;language-text&quot;&gt;.js(x)&lt;/code&gt; files to &lt;code class=&quot;language-text&quot;&gt;.tsx&lt;/code&gt;)
+&lt;div id=&quot;gist96986598&quot; class=&quot;gist&quot;&gt;
+    &lt;div class=&quot;gist-file&quot;&gt;
+      &lt;div class=&quot;gist-data&quot;&gt;
+        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
+  &lt;div id=&quot;file-text-element-tsx&quot; class=&quot;file&quot;&gt;
+    
+
+  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-tsx &quot;&gt;
+      
+&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;react&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;IProps&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  text&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;const&lt;/span&gt;&lt;/span&gt; TextElement&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;React&lt;/span&gt;.&lt;span class=&quot;pl-en&quot;&gt;FC&lt;/span&gt;&amp;lt;&lt;span class=&quot;pl-en&quot;&gt;IProps&lt;/span&gt;&amp;gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; ({&lt;span class=&quot;pl-v&quot;&gt;text&lt;/span&gt;}) &lt;span class=&quot;pl-k&quot;&gt;=&amp;gt;&lt;/span&gt; {&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-k&quot;&gt;return&lt;/span&gt; (&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &amp;lt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;span class=&quot;pl-pse&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pl-pse&quot;&gt;}&lt;/span&gt;&amp;lt;/&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    );&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
+&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td id=&quot;file-text-element-tsx-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
+        &lt;td id=&quot;file-text-element-tsx-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;TextElement&lt;/span&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+&lt;/table&gt;
+
+
+  &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;div class=&quot;gist-meta&quot;&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/5db7ecba8be67abd10efef45746c34cc/raw/f6fdb3cc3e19d07e42f2c411f4db27c5047d0e7a/text-element.tsx&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
+        &lt;a href=&quot;https://gist.github.com/aj-4/5db7ecba8be67abd10efef45746c34cc#file-text-element-tsx&quot;&gt;text-element.tsx&lt;/a&gt;
+        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Test by building your app with webpack and fix errors
+&lt;code class=&quot;language-text&quot;&gt;yarn webpack&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;done!&lt;/h4&gt;</content:encoded></item></channel></rss>
