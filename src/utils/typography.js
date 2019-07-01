@@ -8,6 +8,9 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     'a': {
       color: 'maroon'
+    },
+    '.js-line-number': {
+      display: 'none'
     }
   }
 }

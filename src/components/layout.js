@@ -66,7 +66,7 @@ class Layout extends React.Component {
     }
     return (
       <div style={{
-        width: '100%', height: '100%', backgroundColor: 'darkgrey'
+        width: '100%', height: location.pathname === rootPath ? '100vh' : '100%', backgroundColor: 'darkgrey'
       }}>
         <div
           style={{

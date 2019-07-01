@@ -1,9 +1,24 @@
 ---
 title: How to build and publish a React Component for NPM
+description: test
 date: "2019-06-23T22:12:03.284Z"
 ---
 
-Let's build a widget that anyone can add to their site, which allows users to leave feedback, suggestions, or bug reports. Something like this:
+When writing a React component recently, I thought...hey, I have written this exact component before.
+
+It was a feedback widget, a simple button that animates into an input, and fires a post request on submit.
+
+Seemed like a good case for an NPM package, so I started to write one. 
+
+And something weird happened.
+
+I wrote code differently. Better, in fact.
+
+If there was even a small chance someone else would use this package, I'd want them to have a pleasant experience, because this package would be tied back to me.
+
+And then I realized, I should write packages more often. Maybe even whenever possible. 
+
+And maybe you should too, so here's a short guide on how to start creating your own NPM packages.
 
 ![Chinese Salty Egg](./salty_egg.jpg)
 ** should be a gif of the feedback widget in action**
@@ -30,8 +45,6 @@ npm i react react-dom webpack babel
 ```
 
 we'll use a pretty standard webpack config
-
-<script src="https://gist.github.com/BrodaNoel/4be6cc536525f65b033f007096c482be.js"></script>
 
 `gist:weirdpattern/ce54fdb1e5621b5966e146026995b974#syntax.text`
 

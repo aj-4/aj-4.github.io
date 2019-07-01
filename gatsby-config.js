@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `code drip ☕`,
     author: `Aaron Jack`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `javascript, react, and more`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `aaron_jack_`,
@@ -33,7 +33,7 @@ module.exports = {
               // Optional:
     
               // the github handler whose gists are to be accessed
-              username: 'weirdpattern',
+              username: 'aj-4',
     
               // a flag indicating whether the github default gist css should be included or not
               // default: true
