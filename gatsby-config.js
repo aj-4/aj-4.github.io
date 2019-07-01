@@ -28,6 +28,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: 1000,
+              height: 600
+            }
+          },
+          {
             resolve: "gatsby-remark-embed-gist",
             options: {
               // Optional:

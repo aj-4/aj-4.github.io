@@ -14,8 +14,11 @@ When multiple people are contributing to a project TS makes it a lot harder to w
 
 In this video I show 
 - the way to start a typescript React app in 10 seconds
-- how to set up TS manually for a project
+- TS + React basics
+- how to set up TS + React + webpack from scratch for a project
 - how to refactor a React app to TS
+
+`youtube:https://www.youtube.com/embed/2Xc9gXyf2G4`
 
 ### If you’re starting from scratch, setting up a TS app is as simple as adding a parameter to create-react-app.
 
@@ -25,30 +28,11 @@ i would recommend starting with [create-react-app](https://facebook.github.io/cr
 
 ### You can start playing around with things like...
 
-#### Interfaces
-I can enforce props with an Interface setting certain fields as optional.
+#### Interfaces for props
 
-These will be enforced anywhere I use this component, both on compilation and even in your IDE.
+These types will be enforced anywhere I use this component, both on compilation and even in your IDE.
 
-```
-import React from 'react'
-
-interface IProps {
-    name: string,
-    showTime: boolean
-}
-
-const Hello: React.FC<IProps> = (props) => {
-    return (
-        <div>
-            Hello, {props.name}
-            {props.showTime && new Date()}
-        </div>
-    )
-}
-
-export default Hello
-```
+`gist:aj-4/fb470eba79f29b66f7acdd38d3045762`
 
 Alternatively, I can set name as an optional field with the question mark
 
@@ -59,26 +43,31 @@ interface IProps {
 }
 ```
 
-#### Custom types (structs, primitives)
-Allow you to enforce object rules through an entire data path.
+#### Structs 
+Similar to C or Golang, we can have structured objects.
+
+TS enforces rules on objects through an entire data path -- you can expect your object to always be a certain shape, regardless of where it is.
+
+It's best practice to put most (non-prop) interfaces in `.d.ts` files, which do not need to be imported
 
 `gist:aj-4/764604bb562b1c137a0e1721fab182b8`
 
+Here we have a person struct with multiple fields.
+
+Good-bye "cannot read property x of undefined" errors
+
 #### Function typing 
-is so useful because you can now “trust” functions to do what they say without trying to figure out what type they expect
+We make input and return types explicit.
 
-```
-function formatMessage(person: Person): string {
-    return `Welcome, ${person.firstName}... 
-        ${person.age}? But you look ${person.age - 10}!`
-}
-```
+It's useful because you can now “trust” functions to do what they say, without reading definitions.
 
-### If you want to set up TS manually, or migrate to TS, all that’s really required is 5 steps
+`gist:aj-4/51baa06a7f2c484bd081ebfcf6500b5e`
 
-The good thing about using React + TS is we are already transpiling our jsx + ES6 to vanilla javascript with webpack
+Here we expect the person interface as input and return a formatted string message.
 
-By using the typescript loader, our transpiler will handle `.tsx` files and also act as a “compiler” to catch errors.
+## If you want to set up TS manually...
+
+By using the typescript webpack loader `ts-loader`, our transpiler will handle `.tsx` files and also act as a “compiler” to catch errors.
 
 If your IDE is set up right (VS code is out of the box) then you will also see errors there.
 
@@ -86,22 +75,41 @@ The end result: we will get the exact same build files with a much improved deve
 
 ### The main steps you need to follow are:
 
-1. install dependencies:
+1. install dependencies (that you haven't already):
 
-`npm i typescript ts-loader`
+```
+yarn add react &&
+yarn add typescript ts-loader webpack webpack-cli --dev
+```
 
-2. Add a `ts-loader` rule to `webpack.config.js` 
+2. Add a `webpack.config.js` with `ts-loader`
 `gist:aj-4/4e5db5e5af5ef8d278e5a640056efc35`
-If you are adding `ts` in addition to javascript, simply add to the `rules` section
-(you even can delete `babel-loader` and `.babelrc` if you migrate all your jsx!)
+
+the important parts are setting the entry point as `index.tsx` and the `ts-loader` rule.
+
+If you are refactoring to `ts`, simply add to `ts-loader` to the `rules` section.
+
+```
+...
+rules: [
+      ...
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
+      }
+    ]
+```
 
 3. Next, create a minimal `tsconfig.json` in the project root.
 `gist:aj-4/49dfc0b096bba7100cb768d6302d78cb`
-full set of rules [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
-4. Write `.tsx` files (or change `.jsx` files to `.tsx`) 
+the full set of rules for `tsconfig.json` are [here](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) -- vs code also gives you descriptions on mouse-over.
+
+4. Now write your `.tsx` files (or change `.js(x)` files to `.tsx`) 
 `gist:aj-4/5db7ecba8be67abd10efef45746c34cc`
 
-5. Test with a webpack build, fix compile errors, and repeat
+5. Test by building your app with webpack and fix errors
+`yarn webpack`
 
 #### done!
