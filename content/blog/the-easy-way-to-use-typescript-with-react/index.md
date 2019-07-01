@@ -1,6 +1,6 @@
 ---
 title: The easy way to use Typescript with React
-description: test
+description: Why to use TS with React, 3 different ways to it up, and a mini tutorial
 date: "2019-06-23T22:12:03.284Z"
 ---
 
@@ -12,13 +12,14 @@ I didn’t really understand the value of types until I worked on a team.
 
 When multiple people are contributing to a project TS makes it a lot harder to write javascript bugs, and you can trust functions without reading their definitions.
 
-In this video I show 
+### In this video I show... 
 - the way to start a typescript React app in 10 seconds
 - TS + React basics
 - how to set up TS + React + webpack from scratch for a project
 - how to refactor a React app to TS
 
-`youtube:https://www.youtube.com/embed/2Xc9gXyf2G4`
+
+`youtube:https://youtu.be/4ceWffNiOyQ`
 
 ### If you’re starting from scratch, setting up a TS app is as simple as adding a parameter to create-react-app.
 
