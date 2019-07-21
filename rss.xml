@@ -1,5 +1,284 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[code drip ☕]]></title><description><![CDATA[javascript, react, and more]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 03 Jul 2019 03:21:04 GMT</lastBuildDate><item><title><![CDATA[The easy way to use Typescript with React]]></title><description><![CDATA[Typescript has been one of the most loved languages on stack overflow for several years running.I didn’t really understand the value of…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//the-easy-way-to-use-typescript-with-react/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//the-easy-way-to-use-typescript-with-react/</guid><pubDate>Sun, 23 Jun 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Typescript has been one of the &lt;a href=&quot;https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted&quot;&gt;most loved languages&lt;/a&gt; on stack overflow for several years running.&lt;/p&gt;
-&lt;p&gt;&lt;a
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[code drip ☕]]></title><description><![CDATA[javascript, react, and more]]></description><link>https://gatsby-starter-blog-demo.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 21 Jul 2019 19:59:26 GMT</lastBuildDate><item><title><![CDATA[5 Terminal Tricks I wish I knew sooner]]></title><description><![CDATA[As a developer, your terminal is kind of like your living room you spend a disproportionate amount of time there a little houskeeping can…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//5-terminal-tricks-I-wish-I-knew-sooner/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//5-terminal-tricks-I-wish-I-knew-sooner/</guid><pubDate>Mon, 01 Jul 2019 22:12:03 GMT</pubDate><content:encoded>&lt;h3&gt;As a developer, your terminal is kind of like your living room&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;you spend a disproportionate amount of time there&lt;/li&gt;
+&lt;li&gt;a little houskeeping can equal a lot of happiness&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;/room-neon-6a45397a2dfe9b5a10130efa7b70b7a3.gif&quot; alt=&quot;my room&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;so here’s 5 low effort, high leverage bash terminal tricks&lt;/h2&gt;
+&lt;p&gt;Over time, you accumulate little tricks to optimize your terminal…&lt;/p&gt;
+&lt;p&gt;Here are some low-effort, high-leverage tricks I’ve picked up over time.&lt;/p&gt;
+&lt;p&gt;Given how simple they are, you can start using all of them right now, with no learning curve.&lt;/p&gt;
+&lt;h2&gt;1) alias &lt;em&gt;everything&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;You probably know about aliases, and maybe even use a few.&lt;/p&gt;
+&lt;p&gt;But you should probably be using it more, a lot more.&lt;/p&gt;
+&lt;p&gt;For almost any command I run multiple times a day, I’ll make an alias by editing &lt;code class=&quot;language-text&quot;&gt;~/.bashrc&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;A few examples:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b9b734c394ee71fa02d87a062861be2f/ea2dd/bashrc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.22132097334878%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA7UlEQVQoz42SyYqEQBAFPYgbeBBx3xV3/P/PyyESSnqaptvDo8qlwshMrfM8ZV1XzbZtd/Z9l+M4ZJ5nmabpcaymaYTUdS1VVUlRFLqO4yhRFInjOGLb9uMosG1bGYbhhpo9wDAMxfd98TxP11+xgHVd98+yLEstmWe85LquAp9EgcCAAmJP2Vi+mhrLn0AOAbquS0w/syxTu2VZhKEBpZfm0LcWWJilaapT5mCe5xLHsYKZMGHaSZLc0NcWvJsrECNMAWNLiRgCYygkCAINALO+A9Ww73u1wRAzbLDEiA/wT3KPPe9yTSWfDNn/AaWt3lWQErCYAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Part of my .bashrc&quot;
+        title=&quot;Part of my .bashrc&quot;
+        src=&quot;/static/b9b734c394ee71fa02d87a062861be2f/b9e4f/bashrc.png&quot;
+        srcset=&quot;/static/b9b734c394ee71fa02d87a062861be2f/cf440/bashrc.png 148w,
+/static/b9b734c394ee71fa02d87a062861be2f/d2d38/bashrc.png 295w,
+/static/b9b734c394ee71fa02d87a062861be2f/b9e4f/bashrc.png 590w,
+/static/b9b734c394ee71fa02d87a062861be2f/f9b6a/bashrc.png 885w,
+/static/b9b734c394ee71fa02d87a062861be2f/2d849/bashrc.png 1180w,
+/static/b9b734c394ee71fa02d87a062861be2f/ea2dd/bashrc.png 1726w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;and so on.&lt;/p&gt;
+&lt;p&gt;Is it hard to remember all these aliases? &lt;/p&gt;
+&lt;p&gt;Actually, surprisingly not, after you use them a few times. &lt;/p&gt;
+&lt;p&gt;Just add your most common ones at first build your way up.&lt;/p&gt;
+&lt;h2&gt;2) window stacking&lt;/h2&gt;
+&lt;p&gt;I use iTerm as my terminal of choice. &lt;/p&gt;
+&lt;p&gt;I can’t remember when I started using it, but I do know that its window stacking feature constantly in use for me.&lt;/p&gt;
+&lt;p&gt;I use it to logically group things while multi tasking, or to run multiple servers / processes at the same time&lt;/p&gt;
+&lt;p&gt;Organized terminal space 😱
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5bcb229e8a7055edfe2a59a37f367905/af602/mux-terminals.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 99.23245614035089%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAABYlAAAWJQFJUiTwAAACYklEQVQ4y5VUXW/aQBA8SHhIlYdU4aVQihNs7Dv7bJ+NHZMgEFKVpyr//99MdxcsTCDQPozuw7653ZndU6+vr3CuwHw+RxRFCMMQ4X6MtJa9JEmQpintRbL+CsYYKD4Yx7GAD+Z5Lh8szQPfF/g8BoGAL74EVS4WWOzRNA2Wy+VuXVXIyhJFVSMvChiKli+6BlWWOUXlJCWOroWltSHEWQZjLTSlpIn0AANNBMd7GiqxC9T1i0RWUVRMzIhNjIh1ZLRkkT4hOCHUJhNTnHPIOJr9rf+SnjkXIRNxRC1Ja9A5JHEixlmSYIcUJencoiCtVV3XMuEfOcJdyhkywpGmRMAX+nvX/U/uM7hi1MybYDz9hel0itFohPF4jKfpBD8mP/H4+IjhcIiHh+/kcog0I6Mo0m6ZBMH8qKTU/bc73N3f06EHKKXQ6/XQJygGrdu92czvaHbQrqu5aNgeEvQ68z0Rjzc3N5LeORNOTBkMBnKg3+9TZHt05kx6e3tLEc4OrfkF+Lti99gM1sCbe4Inn8aIxuAJs+cZPM8Twot4fhYOxW22Xq+l3XRFWlRUOkUM3WjYysJl+U6jT6mZM3uSMnfHdruVPraNRbqkLlmQViuNpKZXhmot0tGREac4fFNcg65wUmc6oecqIZ3iEIENZG7o57BtwVarSxomhgo6Ig3DAL724eih4J61sRWyq9p1IBrmNscqfUNZFbC1xfvvd1TUPW+rlTwWCZnW1e1q2TjrsEk3KOsSdmnx8ecDzbLBZrORF4gliU6erguEeeaQG+rVjDRMNZqXRsqIm53H/yFj/AXzLEbuNw386AAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;5 terminals, no problem&quot;
+        title=&quot;5 terminals, no problem&quot;
+        src=&quot;/static/5bcb229e8a7055edfe2a59a37f367905/b9e4f/mux-terminals.png&quot;
+        srcset=&quot;/static/5bcb229e8a7055edfe2a59a37f367905/cf440/mux-terminals.png 148w,
+/static/5bcb229e8a7055edfe2a59a37f367905/d2d38/mux-terminals.png 295w,
+/static/5bcb229e8a7055edfe2a59a37f367905/b9e4f/mux-terminals.png 590w,
+/static/5bcb229e8a7055edfe2a59a37f367905/f9b6a/mux-terminals.png 885w,
+/static/5bcb229e8a7055edfe2a59a37f367905/2d849/mux-terminals.png 1180w,
+/static/5bcb229e8a7055edfe2a59a37f367905/af602/mux-terminals.png 1824w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Looks cool too (imo)&lt;/p&gt;
+&lt;p&gt;open a new stacking window &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;horizontally with &lt;code class=&quot;language-text&quot;&gt;cmd + d&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;vertically with &lt;code class=&quot;language-text&quot;&gt;cmd + shift + d&lt;/code&gt; (my go-to)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;3) VI(m) syntax highlighting&lt;/h2&gt;
+&lt;p&gt;Every dev should at least know some basic VIM for sever configuration, quick edits, etc.&lt;/p&gt;
+&lt;p&gt;Syntax highlighting helps you write less errors in VIM and there are no installs required.&lt;/p&gt;
+&lt;p&gt;It’s such a simple trick that I am embarassed it took me so long to figure out.&lt;/p&gt;
+&lt;p&gt;Just open (or create) &lt;code class=&quot;language-text&quot;&gt;~/.vimrc&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;vi ~/.vimrc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;just add one line:
+&lt;code class=&quot;language-text&quot;&gt;:syntax on;&lt;/code&gt;
+and save&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/efd7635d1833f04979849eab86acedaf/ba839/syntaxon-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 48.43462246777163%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB+0lEQVQoz2WSW2/aQBSEfeUWDBgMsQtpaUTLxesrGCiljRIlaao+EYSI2qj//19MZ5eoitqH0Vlb+GNmzmqX7wMMBhe4GHRxOfQx9Ifotj20Wy24zSYsy8Ib38f11RW+bDbYrNfYcm4/b/B1u8Uiz1As5sizDNFsBu3d2wC+76Faq8K2dJi2yWmhVqmgWi7D0HV4bgvrYqGARZ4jiYRSmsTI0gQZZyJCxOEUmuPU4HVcNBoNlMsV1M/qcByH8wwOpWkauq6LjIAVnUjN01RBCrpb8nkxz9VzJOhQ10310WvpdCVl6gZ0Cex0CIwQTacQkwmjTdU5jeky5nv+WRyFEHSpNZwyet06mo0qWuytVCr9hcq48hycnzNygZzxZOQF+5KKQsYkJKISuhOyQ9syCbFh2xZlwzCM/4BySWkcvwCE6ivhFLNQKeJZLkRwav/GlUAF4zRf4F67AzGdYTwaYfxhhI9yUiHfifDkULqTZ01GlOQJu5GRX8NN04TB6bZcll/gx/cHPNzfU3f4dnurnE3GY+VO9ipCcQIul0sU7Chi8b1eT205CAJUeHXkUtpuW/3meDzicbfD7+dn7B93vH85Pi2LUxVcjOCiVOQR7W95SSV0tVqh3+9jzQssr5Lq0Osi5Ef7/R4/n55wPBxwIPDu5prwX6fFhDOlP5DgEycjAhasAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Part of my .bashrc&quot;
+        title=&quot;Part of my .bashrc&quot;
+        src=&quot;/static/efd7635d1833f04979849eab86acedaf/b9e4f/syntaxon-2.png&quot;
+        srcset=&quot;/static/efd7635d1833f04979849eab86acedaf/cf440/syntaxon-2.png 148w,
+/static/efd7635d1833f04979849eab86acedaf/d2d38/syntaxon-2.png 295w,
+/static/efd7635d1833f04979849eab86acedaf/b9e4f/syntaxon-2.png 590w,
+/static/efd7635d1833f04979849eab86acedaf/f9b6a/syntaxon-2.png 885w,
+/static/efd7635d1833f04979849eab86acedaf/2d849/syntaxon-2.png 1180w,
+/static/efd7635d1833f04979849eab86acedaf/ba839/syntaxon-2.png 2172w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Subtle, but way better (imo)&lt;/p&gt;
+&lt;p&gt;If you want to further customize VIM, there are tons of VIM plugins.&lt;/p&gt;
+&lt;h2&gt;4) PS1 customization&lt;/h2&gt;
+&lt;p&gt;Your bash PS1 prefixes every command you type with this nifty tool:&lt;/p&gt;
+&lt;p&gt;Create a custom prefix with the &lt;a href=&quot;http://bashrcgenerator.com/&quot;&gt;bashrc generator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2f5ff001002cfe33fefbcca106684f1d/aaf58/bashrc-gen.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.0314465408805%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABk0lEQVQoz6WR3U7CQBCF+yK0FZqS0rLbdvmzKAG0UQSkgFgQCBgxPoaJifFV9Jb4fsfZRQhee/HlzJ6dzJ5OtSS5w3A4gev68LxAIetiURChQnp73d9LDcMqhKgdVKJtt9/4/PzCfL7CZvOC1eoJj4/P6hHppekDFos1RqN7zGZLLJdrrNcb5ZXL0Z9hauD7+wdeX9/QbMYYDGTae4zHU3Q6A3S7ifLSdI5eb0h+qs7T6QKTyeyQ7hit02nT5TX6/QtqvsDNTQv92zaSJCb/ivw2buk8HMXkXaLba8P1QjAmIEqnKBFC7JUSci73JHcWUBMH51ypxPcJ7sOnOuASHwHVXqGocB0Pnston+R5DEFQgea6Ds7PbURRHnHcRKPRRKvVIm2gHtXBRAlWuQI7imBRbdfPYNdqyJ+RVqs4sSycmCZMgnMBzXEcmp4jLEpVpKQ7GGP0N13kCwVYEqot6lV6RDaXQzabVaiBtp1HJqPDMEzoun5ERqlh6DAlulRjp8f8pjNNYzeQsVB9/24P/0Pu8Af/bSkaux0NggAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;one of the sections from the generator&quot;
+        title=&quot;one of the sections from the generator&quot;
+        src=&quot;/static/2f5ff001002cfe33fefbcca106684f1d/b9e4f/bashrc-gen.png&quot;
+        srcset=&quot;/static/2f5ff001002cfe33fefbcca106684f1d/cf440/bashrc-gen.png 148w,
+/static/2f5ff001002cfe33fefbcca106684f1d/d2d38/bashrc-gen.png 295w,
+/static/2f5ff001002cfe33fefbcca106684f1d/b9e4f/bashrc-gen.png 590w,
+/static/2f5ff001002cfe33fefbcca106684f1d/f9b6a/bashrc-gen.png 885w,
+/static/2f5ff001002cfe33fefbcca106684f1d/2d849/bashrc-gen.png 1180w,
+/static/2f5ff001002cfe33fefbcca106684f1d/aaf58/bashrc-gen.png 1590w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Then paste it by opening &lt;code class=&quot;language-text&quot;&gt;vi ~/.bashrc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Apart from prefixing your commands with your favorite color, you also get the directory name right there, no more &lt;code class=&quot;language-text&quot;&gt;pwd&lt;/code&gt;s required.&lt;/p&gt;
+&lt;p&gt;here’s mine:
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2b0914f0bcec8a40d8447d684a3536b8/9ed40/aaron-ps1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 45.26627218934911%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABAUlEQVQoz7WO3WqDQBCFVzGbakzENurqWsWWYCnmoqBUiH/0TnyE9EV8+tN1KcRiCqW0Fx9n58zMmSVt22IYBpzP7+i6DlVVoZ6oa/n+wukktSgKlGWJpmnk3BzCGEMURXhKUwSBD8/z4HEO13UR8ADMZ/CFPymPY+n3fY88z2HbNqZ9ufMJeU58vKT3eOR7vGYJ9rcWiMdgWgbCBxfxwUf5dsQhC3GXHRGK4+M4ylBCyJKdqcPaGrhZU2w3OtaUQtV1rOgKVLARPXNnCNVBTROapiFJEjiOIwNUVZ2hTN7yinLt8rU5RRWqCL1A5sVPufxm2ROBBL8J/Q7yl2H/EvgBuJ7Sy1CI7D4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;my ps1 is personalized&quot;
+        title=&quot;my ps1 is personalized&quot;
+        src=&quot;/static/2b0914f0bcec8a40d8447d684a3536b8/b9e4f/aaron-ps1.png&quot;
+        srcset=&quot;/static/2b0914f0bcec8a40d8447d684a3536b8/cf440/aaron-ps1.png 148w,
+/static/2b0914f0bcec8a40d8447d684a3536b8/d2d38/aaron-ps1.png 295w,
+/static/2b0914f0bcec8a40d8447d684a3536b8/b9e4f/aaron-ps1.png 590w,
+/static/2b0914f0bcec8a40d8447d684a3536b8/9ed40/aaron-ps1.png 676w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;5) jq&lt;/h2&gt;
+&lt;p&gt;prints json files and streams into nicely formatted, colorized outputs.&lt;/p&gt;
+&lt;p&gt;For this to work, just.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;brew install jq&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;then just pipe a json call into jq by appending &lt;code class=&quot;language-text&quot;&gt;| jq .&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;curl https://entrylevelsoftwarejobs.com/api/jobs | jq .&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;check out the before and after&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6dd99e808921496ee0690a6fbd95b293/38249/jq2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 73.94957983193278%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAACVElEQVQ4y12ReVMiQQzFG5mjuwebYUYYOVxErF3xqIWR2wPUskq//wd6mwQaV//48ZJ095skqMfHR4zHY1xfXx+4ubn5Fvv89vYWo9EIV1dXor52d3cneVmWUB8fH3h9fcX7+zteXl6EzWYjte12K/nb29uhxsr4M675O6zq8/MT3OXz8/Phko8Zjn/my+XyUH94eMDT05PErIp/fuI/wPFqtRI4549xbb1eS5f+nM/4DdfUdDqVL/IlPlwsFpjNZpjP51JnZbgTfsiPOGYDNvR1VjFkAzbjC6z+MZux+tjv0I/q+X9c3uOhQ2G1xGq9EhPfsXRK9c12cxjZ4zvzDcmfwh0ul3NMxhNM/k5QjkuUky+kTtzf34v5bD6TlQgUT2dTcFMMmytXryNN2zCpRdSKELdixA0i3euexCVwiUNiE1hjv5GYBFpr8kmhjqpHcG4I3aCkUKi0K6g0K1B1BdUgsh1hM4RuaYRZiOA4QJDuaQQIU6rFAay19C6tI2+OcNou4ZoForMQcUFdZTGiE+o4J80jmMzA1AxiS3kcIjLRDrsjiAIktQQqz3IUxQTdzgKuaEGfa5iOgc61YFIy0kZGMpYMdYyQDSMyqn4RHAWyDpUVObL2EM3eH7jTJkyfHl+QWZ+4JHr7mGtdjWgQIbwgw24kE4QnFBdkmJNhmzsc5XIpviQjMot/0bgXlJ+TDkn7pAMa83IXh33a14B29yvY6TkxDFAdVGF/0w6zXib/ous5uO4xXIf0jGjvVep7JWqdGkxBa2gRpzu1hYXuaNS7dfwDfxusu5d8cwEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;before and after&quot;
+        title=&quot;before and after&quot;
+        src=&quot;/static/6dd99e808921496ee0690a6fbd95b293/b9e4f/jq2.png&quot;
+        srcset=&quot;/static/6dd99e808921496ee0690a6fbd95b293/cf440/jq2.png 148w,
+/static/6dd99e808921496ee0690a6fbd95b293/d2d38/jq2.png 295w,
+/static/6dd99e808921496ee0690a6fbd95b293/b9e4f/jq2.png 590w,
+/static/6dd99e808921496ee0690a6fbd95b293/f9b6a/jq2.png 885w,
+/static/6dd99e808921496ee0690a6fbd95b293/2d849/jq2.png 1180w,
+/static/6dd99e808921496ee0690a6fbd95b293/38249/jq2.png 1666w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;you can also use &lt;code class=&quot;language-text&quot;&gt;jq&lt;/code&gt; on a file, &lt;/p&gt;
+&lt;p&gt;for example &lt;code class=&quot;language-text&quot;&gt;jq . package.json&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;…can be used for getting specific properties from JSON files…&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;jq .scripts package.json&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/15ca406ab8ca8faa57aaba8db4d76124/40805/jq-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 37.098692033293695%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAYAAAAIy204AAAACXBIWXMAABYlAAAWJQFJUiTwAAABIElEQVQoz3WRzW6DMBCEvf6BQCDGxiYiadMeq1aq+v4vNx1jVNpDD59Y73pnZ426LxF+PKEl+TphThNSDojRY5498i0h5ISu6+C9Zz5imiYsy4IQwoa1FkopiAhU140YxgfO/QrbO0hiwQtkFuigYayG8LLmZVEHPwKiNkq8na07I6YPzPkT/RghK5sfFMkUXPSGaQ0vsslJxZL2nwHWnpCWL2TS9j3kcQjKjTxTeOX5RWqu8Mpc4qCLqZuMjI2pbp3tEeIbRq7tLq4KpOKO3AXGs0nvrpQcq6l91ZLXh0tlXIOQ3jEMN5jAwhOFrsUVxYqLwMkNGzvWSv1c31cmctkZjrNy0UE7ounE7NP41fwZBWlqvDlpfr1fI3/fdI+/AR0Gl7dsG/FnAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;some beautiful json&quot;
+        title=&quot;some beautiful json&quot;
+        src=&quot;/static/15ca406ab8ca8faa57aaba8db4d76124/b9e4f/jq-2.png&quot;
+        srcset=&quot;/static/15ca406ab8ca8faa57aaba8db4d76124/cf440/jq-2.png 148w,
+/static/15ca406ab8ca8faa57aaba8db4d76124/d2d38/jq-2.png 295w,
+/static/15ca406ab8ca8faa57aaba8db4d76124/b9e4f/jq-2.png 590w,
+/static/15ca406ab8ca8faa57aaba8db4d76124/f9b6a/jq-2.png 885w,
+/static/15ca406ab8ca8faa57aaba8db4d76124/2d849/jq-2.png 1180w,
+/static/15ca406ab8ca8faa57aaba8db4d76124/40805/jq-2.png 1682w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;…and even more if you want to check out the &lt;a href=&quot;https://stedolan.github.io/jq/&quot;&gt;docs&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;tl;dr&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;use &lt;code class=&quot;language-text&quot;&gt;jq .&lt;/code&gt; to format and colorize json&lt;/li&gt;
+&lt;li&gt;stack windows in &lt;code class=&quot;language-text&quot;&gt;iTerm&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;cmd + (shift) + d&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;you can generate a custom command prompt &lt;a href=&quot;http://bashrcgenerator.com/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;turn on vi syntax highlighting with &lt;code class=&quot;language-text&quot;&gt;syntax: on&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;~/.vimrc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;create aliases for everything in &lt;code class=&quot;language-text&quot;&gt;~/.bashrc&lt;/code&gt; to speed everything up&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4&gt;That’s it!&lt;/h4&gt;
+&lt;h3&gt;Hope at least one of these was new for you&lt;/h3&gt;</content:encoded></item><item><title><![CDATA[The easy way to use Typescript with React]]></title><description><![CDATA[Typescript has been one of the most loved languages on stack overflow for several years running.  I didn’t really understand the value of…]]></description><link>https://gatsby-starter-blog-demo.netlify.com//the-easy-way-to-use-typescript-with-react/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com//the-easy-way-to-use-typescript-with-react/</guid><pubDate>Sun, 23 Jun 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Typescript has been one of the &lt;a href=&quot;https://insights.stackoverflow.com/survey/2019#most-loved-dreaded-and-wanted&quot;&gt;most loved languages&lt;/a&gt; on stack overflow for several years running.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
     href=&quot;/static/dfd565cc7a7813db7261f57c2d5b57ae/f4491/loved-languages.png&quot;
     style=&quot;display: block&quot;
@@ -7,18 +286,13 @@
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 87.41648106904232%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB30lEQVQ4y6WUbVPTQBSF8///ht/8pI7AjCJliuMoU0RKWvpCpW1imzRIUpLs5mX3Hu82gJXaInVnnrmbm92Tc/fuxCoVIUoJWQmkOfAzLpFminNqMb8VasE8raLJmXkiFfyoxIzxwhJFqUFEsLTWmPlT2OdNuM4IeZYiTRNIkSATVbxHLOUEr8lkRc4kcQwpJSylFG5uQjiOiyAIFslUCN78NOkDvCcVyLIMlrEppYAqC1SDsN0gmGotM73oDlD7eIwoySEKc5b0bETxIKjRmmq8PtfYayvstv6dnaVYv1SLxiwcXgc++h0buhBbla3JsFzyOMKbzw6+jgs0J8A3VzF6I2fMyVhjEOjKwm9BwlWQo96JUW+HOL7KeAPh1NE4dddjRBsseLkqyCX7E/TsE8wDl5/y5/eXHjlsuiVeNiQ3RWO3TXhrVwe9Y6/HNONVU+HL8C8Op/41ut+dra6LLGhVsDf0sHd0hlGQwYuBHxE9yYRxQ0IoVgQ1+jON/S7hoFvgXUvioFei1leo9dZzyO/fdxQuPH13dZYcuqMBmo1PCCZDhL7Dn5P/0xSgMZjjRd3DfqdgZ2C3aiMfupW7o4Hi396jkok0Yr4pfsLNmZuz0ZiYuIFqHcG/JSj9p+AvU/sQFf+IwqYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;&lt;/span&gt;
-    &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 87.41648106904232%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAB30lEQVQ4y6WUbVPTQBSF8///ht/8pI7AjCJliuMoU0RKWvpCpW1imzRIUpLs5mX3Hu82gJXaInVnnrmbm92Tc/fuxCoVIUoJWQmkOfAzLpFminNqMb8VasE8raLJmXkiFfyoxIzxwhJFqUFEsLTWmPlT2OdNuM4IeZYiTRNIkSATVbxHLOUEr8lkRc4kcQwpJSylFG5uQjiOiyAIFslUCN78NOkDvCcVyLIMlrEppYAqC1SDsN0gmGotM73oDlD7eIwoySEKc5b0bETxIKjRmmq8PtfYayvstv6dnaVYv1SLxiwcXgc++h0buhBbla3JsFzyOMKbzw6+jgs0J8A3VzF6I2fMyVhjEOjKwm9BwlWQo96JUW+HOL7KeAPh1NE4dddjRBsseLkqyCX7E/TsE8wDl5/y5/eXHjlsuiVeNiQ3RWO3TXhrVwe9Y6/HNONVU+HL8C8Op/41ut+dra6LLGhVsDf0sHd0hlGQwYuBHxE9yYRxQ0IoVgQ1+jON/S7hoFvgXUvioFei1leo9dZzyO/fdxQuPH13dZYcuqMBmo1PCCZDhL7Dn5P/0xSgMZjjRd3DfqdgZ2C3aiMfupW7o4Hi396jkok0Yr4pfsLNmZuz0ZiYuIFqHcG/JSj9p+AvU/sQFf+IwqYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;box-shadow:inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Typescript is the number 3 most loved language on stack overflow&quot;
-        title=&quot;&quot;
+        title=&quot;Typescript is the number 3 most loved language on stack overflow&quot;
         src=&quot;/static/dfd565cc7a7813db7261f57c2d5b57ae/b9e4f/loved-languages.png&quot;
         srcset=&quot;/static/dfd565cc7a7813db7261f57c2d5b57ae/cf440/loved-languages.png 148w,
 /static/dfd565cc7a7813db7261f57c2d5b57ae/d2d38/loved-languages.png 295w,
@@ -28,8 +302,8 @@
 /static/dfd565cc7a7813db7261f57c2d5b57ae/f4491/loved-languages.png 1796w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
       /&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;&lt;/p&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I didn’t really understand the value of types until I worked on a team.&lt;/p&gt;
 &lt;p&gt;When multiple people are contributing to a project TS makes it a lot harder to write javascript bugs, and you can trust functions without reading their definitions.&lt;/p&gt;
 &lt;h3&gt;In this video I show…&lt;/h3&gt;
@@ -59,103 +333,7 @@
 &lt;h3&gt;You can start playing around with things like…&lt;/h3&gt;
 &lt;h4&gt;Interfaces for props&lt;/h4&gt;
 &lt;p&gt;These types will be enforced anywhere I use this component, both on compilation and even in your IDE.&lt;/p&gt;
-&lt;p&gt;&lt;div id=&quot;gist96998982&quot; class=&quot;gist&quot;&gt;
-    &lt;div class=&quot;gist-file&quot;&gt;
-      &lt;div class=&quot;gist-data&quot;&gt;
-        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
-  &lt;div id=&quot;file-hello-tsx&quot; class=&quot;file&quot;&gt;
-    
-
-  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-tsx &quot;&gt;
-      
-&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;react&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;IProps&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    name&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    showTime&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;boolean&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;const&lt;/span&gt;&lt;/span&gt; Hello&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;React&lt;/span&gt;.&lt;span class=&quot;pl-en&quot;&gt;FC&lt;/span&gt;&amp;lt;&lt;span class=&quot;pl-en&quot;&gt;IProps&lt;/span&gt;&amp;gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; (&lt;span class=&quot;pl-v&quot;&gt;props&lt;/span&gt;) &lt;span class=&quot;pl-k&quot;&gt;=&amp;gt;&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-k&quot;&gt;return&lt;/span&gt; (&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        &amp;lt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;            Hello, &lt;span class=&quot;pl-pse&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;props&lt;/span&gt;.&lt;span class=&quot;pl-c1&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pl-pse&quot;&gt;}&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;            &lt;span class=&quot;pl-pse&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;props&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;showTime&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;Date&lt;/span&gt;()&lt;span class=&quot;pl-pse&quot;&gt;}&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        &amp;lt;/&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L14&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;14&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC14&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    )&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L15&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;15&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC15&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L16&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;16&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC16&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-hello-tsx-L17&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;17&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-hello-tsx-LC17&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;Hello&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-&lt;/table&gt;
-
-
-  &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-      &lt;/div&gt;
-      &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/fb470eba79f29b66f7acdd38d3045762/raw/182e18c4f5f24099107cb7ae88e63603e2ed5257/hello.tsx&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/fb470eba79f29b66f7acdd38d3045762#file-hello-tsx&quot;&gt;hello.tsx&lt;/a&gt;
-        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gist:aj-4/fb470eba79f29b66f7acdd38d3045762&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Alternatively, I can set name as an optional field with the question mark&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;interface IProps {
     name?: string,
@@ -165,99 +343,13 @@
 &lt;p&gt;Similar to C or Golang, we can have structured objects.&lt;/p&gt;
 &lt;p&gt;TS enforces rules on objects through an entire data path — you can expect your object to always be a certain shape, regardless of where it is.&lt;/p&gt;
 &lt;p&gt;It’s best practice to put most (non-prop) interfaces in &lt;code class=&quot;language-text&quot;&gt;.d.ts&lt;/code&gt; files, which do not need to be imported&lt;/p&gt;
-&lt;p&gt;&lt;div id=&quot;gist96998503&quot; class=&quot;gist&quot;&gt;
-    &lt;div class=&quot;gist-file&quot;&gt;
-      &lt;div class=&quot;gist-data&quot;&gt;
-        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
-  &lt;div id=&quot;file-local-d-ts&quot; class=&quot;file&quot;&gt;
-    
-
-  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-typescript &quot;&gt;
-      
-&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-local-d-ts-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-local-d-ts-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;Person&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-local-d-ts-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-local-d-ts-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  userName&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-local-d-ts-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-local-d-ts-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  firstName&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-local-d-ts-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-local-d-ts-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  age&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;number&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-local-d-ts-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-local-d-ts-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
-      &lt;/tr&gt;
-&lt;/table&gt;
-
-
-  &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-      &lt;/div&gt;
-      &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/764604bb562b1c137a0e1721fab182b8/raw/77107b6a60d8c4a68adb554aec80532acba80d71/local.d.ts&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/764604bb562b1c137a0e1721fab182b8#file-local-d-ts&quot;&gt;local.d.ts&lt;/a&gt;
-        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gist:aj-4/764604bb562b1c137a0e1721fab182b8&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Here we have a person struct with multiple fields.&lt;/p&gt;
 &lt;p&gt;Good-bye “cannot read property x of undefined” errors&lt;/p&gt;
 &lt;h4&gt;Function typing&lt;/h4&gt;
 &lt;p&gt;We make input and return types explicit.&lt;/p&gt;
 &lt;p&gt;It’s useful because you can now “trust” functions to do what they say, without reading definitions.&lt;/p&gt;
-&lt;p&gt;&lt;div id=&quot;gist96998996&quot; class=&quot;gist&quot;&gt;
-    &lt;div class=&quot;gist-file&quot;&gt;
-      &lt;div class=&quot;gist-data&quot;&gt;
-        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
-  &lt;div id=&quot;file-formatmessage-ts&quot; class=&quot;file&quot;&gt;
-    
-
-  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-typescript &quot;&gt;
-      
-&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-formatmessage-ts-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-formatmessage-ts-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;function&lt;/span&gt; formatMessage(&lt;span class=&quot;pl-v&quot;&gt;person&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;Person&lt;/span&gt;)&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-formatmessage-ts-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-formatmessage-ts-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;`&lt;/span&gt;Welcome, ${&lt;span class=&quot;pl-smi&quot;&gt;person&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;firstName&lt;/span&gt;}... &lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-formatmessage-ts-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-formatmessage-ts-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-s&quot;&gt;        ${&lt;span class=&quot;pl-smi&quot;&gt;person&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;age&lt;/span&gt;}? But you look ${&lt;span class=&quot;pl-smi&quot;&gt;person&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;age&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;10&lt;/span&gt;}!&lt;span class=&quot;pl-pds&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-formatmessage-ts-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-formatmessage-ts-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
-      &lt;/tr&gt;
-&lt;/table&gt;
-
-
-  &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-      &lt;/div&gt;
-      &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/51baa06a7f2c484bd081ebfcf6500b5e/raw/98d20510ef71366cf4e58f7c01c3c3b21473eb8f/formatMessage.ts&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/51baa06a7f2c484bd081ebfcf6500b5e#file-formatmessage-ts&quot;&gt;formatMessage.ts&lt;/a&gt;
-        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gist:aj-4/51baa06a7f2c484bd081ebfcf6500b5e&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Here we expect the person interface as input and return a formatted string message.&lt;/p&gt;
 &lt;h2&gt;If you want to set up TS manually…&lt;/h2&gt;
 &lt;p&gt;By using the typescript webpack loader &lt;code class=&quot;language-text&quot;&gt;ts-loader&lt;/code&gt;, our transpiler will handle &lt;code class=&quot;language-text&quot;&gt;.tsx&lt;/code&gt; files and also act as a “compiler” to catch errors.&lt;/p&gt;
@@ -271,120 +363,7 @@
 yarn add typescript ts-loader webpack webpack-cli --dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;2&quot;&gt;
 &lt;li&gt;Add a &lt;code class=&quot;language-text&quot;&gt;webpack.config.js&lt;/code&gt; with &lt;code class=&quot;language-text&quot;&gt;ts-loader&lt;/code&gt;
-&lt;div id=&quot;gist96986519&quot; class=&quot;gist&quot;&gt;
-    &lt;div class=&quot;gist-file&quot;&gt;
-      &lt;div class=&quot;gist-data&quot;&gt;
-        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
-  &lt;div id=&quot;file-webpack-config-js&quot; class=&quot;file&quot;&gt;
-    
-
-  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-javascript &quot;&gt;
-      
-&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;var&lt;/span&gt; path &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;path&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;);&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-c1&quot;&gt;module&lt;/span&gt;.&lt;span class=&quot;pl-smi&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  mode&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;production&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  entry&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;./src/index.tsx&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  output&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    path&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;path&lt;/span&gt;.&lt;span class=&quot;pl-en&quot;&gt;resolve&lt;/span&gt;(&lt;span class=&quot;pl-c1&quot;&gt;__dirname&lt;/span&gt;, &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;build&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;),&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    filename&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;index.js&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    libraryTarget&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;commonjs2&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt; &lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  },&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  module&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    rules&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; [&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        test&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-sr&quot;&gt; &lt;span class=&quot;pl-pds&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;pl-cce&quot;&gt;\.&lt;/span&gt;tsx&lt;span class=&quot;pl-k&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;pl-pds&quot;&gt;/&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L14&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;14&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC14&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        use&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;ts-loader&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L15&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;15&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC15&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;        exclude&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;pl-sr&quot;&gt; &lt;span class=&quot;pl-pds&quot;&gt;/&lt;/span&gt;node_modules&lt;span class=&quot;pl-pds&quot;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L16&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;16&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC16&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      }&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L17&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;17&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC17&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    ]&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L18&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;18&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC18&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  },&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L19&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;19&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC19&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  externals&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L20&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;20&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC20&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;react&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;commonjs react&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L21&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;21&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC21&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  }&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-webpack-config-js-L22&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;22&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-webpack-config-js-LC22&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;};&lt;/td&gt;
-      &lt;/tr&gt;
-&lt;/table&gt;
-
-
-  &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-      &lt;/div&gt;
-      &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/4e5db5e5af5ef8d278e5a640056efc35/raw/d95a71456d7b645d6fdbd78a452cc6d16e145354/webpack.config.js&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/4e5db5e5af5ef8d278e5a640056efc35#file-webpack-config-js&quot;&gt;webpack.config.js&lt;/a&gt;
-        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
+&lt;code class=&quot;language-text&quot;&gt;gist:aj-4/4e5db5e5af5ef8d278e5a640056efc35&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;the important parts are setting the entry point as &lt;code class=&quot;language-text&quot;&gt;index.tsx&lt;/code&gt; and the &lt;code class=&quot;language-text&quot;&gt;ts-loader&lt;/code&gt; rule.&lt;/p&gt;
 &lt;p&gt;If you are refactoring to &lt;code class=&quot;language-text&quot;&gt;ts&lt;/code&gt;, simply add to &lt;code class=&quot;language-text&quot;&gt;ts-loader&lt;/code&gt; to the &lt;code class=&quot;language-text&quot;&gt;rules&lt;/code&gt; section.&lt;/p&gt;
@@ -399,166 +378,13 @@ rules: [
     ]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;ol start=&quot;3&quot;&gt;
 &lt;li&gt;Next, create a minimal &lt;code class=&quot;language-text&quot;&gt;tsconfig.json&lt;/code&gt; in the project root.
-&lt;div id=&quot;gist96986362&quot; class=&quot;gist&quot;&gt;
-    &lt;div class=&quot;gist-file&quot;&gt;
-      &lt;div class=&quot;gist-data&quot;&gt;
-        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
-  &lt;div id=&quot;file-tsconfig-json&quot; class=&quot;file&quot;&gt;
-    
-
-  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-json-with-comments &quot;&gt;
-      
-&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;{&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;compilerOptions&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;noImplicitAny&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;true&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;module&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;commonjs&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;target&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;es5&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;,&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;jsx&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;react&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    },&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;exclude&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; [&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;node_modules&lt;span class=&quot;pl-pds&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    ],&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-tsconfig-json-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-tsconfig-json-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
-      &lt;/tr&gt;
-&lt;/table&gt;
-
-
-  &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-      &lt;/div&gt;
-      &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/49dfc0b096bba7100cb768d6302d78cb/raw/aa6db39a70c7a2f11a7c9b803fd9f1d4d36357dc/tsconfig.json&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/49dfc0b096bba7100cb768d6302d78cb#file-tsconfig-json&quot;&gt;tsconfig.json&lt;/a&gt;
-        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/li&gt;
+&lt;code class=&quot;language-text&quot;&gt;gist:aj-4/49dfc0b096bba7100cb768d6302d78cb&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;the full set of rules for &lt;code class=&quot;language-text&quot;&gt;tsconfig.json&lt;/code&gt; are &lt;a href=&quot;https://www.typescriptlang.org/docs/handbook/tsconfig-json.html&quot;&gt;here&lt;/a&gt; — vs code also gives you descriptions on mouse-over.&lt;/p&gt;
 &lt;ol start=&quot;4&quot;&gt;
-&lt;li&gt;
-&lt;p&gt;Now write your &lt;code class=&quot;language-text&quot;&gt;.tsx&lt;/code&gt; files (or change &lt;code class=&quot;language-text&quot;&gt;.js(x)&lt;/code&gt; files to &lt;code class=&quot;language-text&quot;&gt;.tsx&lt;/code&gt;)
-&lt;div id=&quot;gist96986598&quot; class=&quot;gist&quot;&gt;
-    &lt;div class=&quot;gist-file&quot;&gt;
-      &lt;div class=&quot;gist-data&quot;&gt;
-        &lt;div class=&quot;js-gist-file-update-container js-task-list-container file-box&quot;&gt;
-  &lt;div id=&quot;file-text-element-tsx&quot; class=&quot;file&quot;&gt;
-    
-
-  &lt;div itemprop=&quot;text&quot; class=&quot;Box-body p-0 blob-wrapper data type-tsx &quot;&gt;
-      
-&lt;table class=&quot;highlight tab-size js-file-line-container&quot; data-tab-size=&quot;8&quot;&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L1&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;1&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC1&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;pl-s&quot;&gt;&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;react&lt;span class=&quot;pl-pds&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/span&gt;;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L2&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;2&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC2&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L3&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;3&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC3&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;IProps&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L4&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;4&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC4&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;  text&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-c1&quot;&gt;string&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L5&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;5&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC5&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L6&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;6&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC6&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L7&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;7&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC7&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;const&lt;/span&gt;&lt;/span&gt; TextElement&lt;span class=&quot;pl-k&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pl-en&quot;&gt;React&lt;/span&gt;.&lt;span class=&quot;pl-en&quot;&gt;FC&lt;/span&gt;&amp;lt;&lt;span class=&quot;pl-en&quot;&gt;IProps&lt;/span&gt;&amp;gt; &lt;span class=&quot;pl-k&quot;&gt;=&lt;/span&gt; ({&lt;span class=&quot;pl-v&quot;&gt;text&lt;/span&gt;}) &lt;span class=&quot;pl-k&quot;&gt;=&amp;gt;&lt;/span&gt; {&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L8&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;8&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC8&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    &lt;span class=&quot;pl-k&quot;&gt;return&lt;/span&gt; (&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L9&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;9&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC9&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;      &amp;lt;&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;span class=&quot;pl-pse&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pl-smi&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;pl-pse&quot;&gt;}&lt;/span&gt;&amp;lt;/&lt;span class=&quot;pl-ent&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L10&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;10&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC10&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;    );&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L11&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;11&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC11&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;}&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L12&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;12&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC12&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;
-&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-        &lt;td id=&quot;file-text-element-tsx-L13&quot; class=&quot;blob-num js-line-number&quot; data-line-number=&quot;13&quot;&gt;&lt;/td&gt;
-        &lt;td id=&quot;file-text-element-tsx-LC13&quot; class=&quot;blob-code blob-code-inner js-file-line&quot;&gt;&lt;span class=&quot;pl-k&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;pl-k&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;pl-smi&quot;&gt;TextElement&lt;/span&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-&lt;/table&gt;
-
-
-  &lt;/div&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-
-      &lt;/div&gt;
-      &lt;div class=&quot;gist-meta&quot;&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/5db7ecba8be67abd10efef45746c34cc/raw/f6fdb3cc3e19d07e42f2c411f4db27c5047d0e7a/text-element.tsx&quot; style=&quot;float:right&quot;&gt;view raw&lt;/a&gt;
-        &lt;a href=&quot;https://gist.github.com/aj-4/5db7ecba8be67abd10efef45746c34cc#file-text-element-tsx&quot;&gt;text-element.tsx&lt;/a&gt;
-        hosted with &amp;#10084; by &lt;a href=&quot;https://github.com&quot;&gt;GitHub&lt;/a&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Test by building your app with webpack and fix errors
-&lt;code class=&quot;language-text&quot;&gt;yarn webpack&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Now write your &lt;code class=&quot;language-text&quot;&gt;.tsx&lt;/code&gt; files (or change &lt;code class=&quot;language-text&quot;&gt;.js(x)&lt;/code&gt; files to &lt;code class=&quot;language-text&quot;&gt;.tsx&lt;/code&gt;)
+&lt;code class=&quot;language-text&quot;&gt;gist:aj-4/5db7ecba8be67abd10efef45746c34cc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Test by building your app with webpack and fix errors
+&lt;code class=&quot;language-text&quot;&gt;yarn webpack&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h4&gt;done!&lt;/h4&gt;</content:encoded></item></channel></rss>
